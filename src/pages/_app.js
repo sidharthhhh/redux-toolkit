@@ -1,6 +1,5 @@
 import store from '@/store/store';
 import '@/styles/globals.css'
-import { Store } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
 
 export default function App({ Component, pageProps }) {
@@ -8,3 +7,4 @@ export default function App({ Component, pageProps }) {
     <Component {...pageProps} />
     </Provider>
 }
+
